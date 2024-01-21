@@ -2,6 +2,17 @@
 
 A fork of [pyExifToolGUI](https://hvdwolf.github.io/pyExifToolGUI/) by [HvdWolf](https://github.com/hvdwolf) running PySide 6.
 
+## Running
+```
+# Set-up
+# exiftool must be installed on your system.
+pip3 install -r requirements.txt
+python3 pycomp.py
+
+# Run GUI
+python3 ./scripts/pyexiftoolgui.py
+```
+
 ----
 # Old README:
 
