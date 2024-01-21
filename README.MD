@@ -1,3 +1,10 @@
+# pyExifToolGUI6
+
+A fork of [pyExifToolGUI](https://hvdwolf.github.io/pyExifToolGUI/) by [HvdWolf](https://github.com/hvdwolf) running PySide 6.
+
+----
+# Old README:
+
 # pyExifToolGUI
 
 # !!! DISCONTINUED !!!

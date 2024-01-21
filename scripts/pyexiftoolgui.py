@@ -24,9 +24,10 @@
 
 import os, sys, platform, shlex, subprocess, webbrowser, re
 
-import PySide
-from PySide.QtCore import *
-from PySide.QtGui import *
+import PySide6
+from PySide6.QtCore import *
+from PySide6.QtGui import *
+from PySide6.QtWidgets import *
 
 
 #-------------------------------------------------------------------------
@@ -719,4 +720,4 @@ if __name__ == '__main__':
         print('Argument List:' + str(sys.argv))
         frame.load_cmd_images(sys.argv[1:])
 
-    app.exec_()
+    app.exec()

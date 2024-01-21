@@ -24,9 +24,10 @@
 import os, sys, platform, shlex, subprocess, time, re, string, datetime
 import xml.etree.ElementTree as ET
 
-import PySide
-from PySide.QtCore import *
-from PySide.QtGui import *
+import PySide6
+from PySide6.QtCore import *
+from PySide6.QtGui import *
+from PySide6.QtWidgets import *
 
 ##################################################################################################
 # Configuration xml file

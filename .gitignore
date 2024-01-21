@@ -7,9 +7,12 @@ build/
 *.pyc
 pyexiftoolgui.egg-info/
 
-# IDE files?
+# Development
 scripts/.pyexiftoolgui/
 *.wp?
+*.sw*
+.DS_Store
+.venv
 
 # Debian files
 debian/.debhelper/
